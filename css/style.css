@@ -1,0 +1,108 @@
+/* Navigation styles */
+.logo {
+  background: white;
+  height: 230px;
+  background-image: url("../images/Suzette\ Logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+}
+
+.left, .center, .right {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .right {
+  width: 25%;
+}
+.center {
+  width: 50%;
+}
+
+.center a {
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family:arial;
+}
+
+.right button {
+  background-color: rgb(214, 94, 168);
+  color:rgb(253, 252, 252);
+  font-size: 16px;
+  padding: 15px;
+  width: 50%;
+}
+
+
+
+/* Column styles */
+.column {
+  display: flex;
+  height: 1000px;
+  width: 800px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.hero1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.hero1 {
+  margin-top:20px;
+  background-image: url("../images/my\ image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+}
+
+.text {
+  background: rgb(0,0,0,0.7);
+  width: 100%;
+  padding: 20px 40px;
+  color: black;
+}
+.text p {
+  color: rgba(7, 7, 7, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 100px;
+}
+
+.footer a {
+  padding: 20px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.ig {
+  color: rgba(250, 245, 245, 0.979);
+}
+
+
+}
